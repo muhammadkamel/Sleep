@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Doo';
+  src: url("../fonts/Sofia/Sofia\ Pro\ Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'BrownStd';
+  src: url('../fonts/brownStd/BrownStdRegular.eot');
+  src:
+    url('../fonts/brownStd/BrownStdRegulard41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/brownStd/BrownStdRegular.woff') format('woff'),
+    url('../fonts/brownStd/BrownStdRegular.ttf') format('truetype'),
+    url('../fonts/brownStd/BrownStdRegular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: BrownStd;
+  box-sizing: border-box;
+}
+body {
+  height: 600px;
+  background-image: url(../img/beach.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-home {
+  background-color: #f7f7f7;
+}
+nav {
+  position: relative;
+    padding: 40px;
+    width: 400px;
+    margin: 0 auto;
+    color: #212121;
+}
+.b-sleep h1 {
+  padding-top: 5px;
+}
+.sec2 {
+  
+}
+.sec3 p {
+  color: green;
+  font-size: 16px;
+  padding: 20px;
+}
+.sec4 {
+  border: 1px solid #eee;
+  background-color: #fefefe;
+}
+.row {
+  background-color: #eee;
+  position: relative;
+  padding: 10px;
+  height: 700px;
+}
+.twelve {
+  margin: 20px 0 20px 0;
+  padding: 15px;
+  background-color: transparent;
+}
+.twelve p {
+  font-size: 18px;
+}
+button {
+  background-color: #db2d2d;
+  padding: 10px;
+  color: #fff;
+  font-size: 34px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+button:hover {
+  background-color: tomato;
+  color: #f9f9f9;
+}
+button a {
+  color: #fff;
+}
+button a:hover {
+  color: #eee;
+}
+#resultsNow {
+  background-color: transparent;
+  padding: 10px;
+  height: 450px;
+}
+#resultsNow p {
+  color: #857b7b;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 10px;
+}
+#resultsNow span {
+  font-style: italic;
+  color: #857b7b;
+}
